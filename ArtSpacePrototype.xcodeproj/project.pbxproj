@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,10 @@
 		CB8BBF2623D75EA0007F8909 /* ArtSpacePrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF2523D75EA0007F8909 /* ArtSpacePrototypeTests.swift */; };
 		CB8BBF3123D75EA0007F8909 /* ArtSpacePrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF3023D75EA0007F8909 /* ArtSpacePrototypeUITests.swift */; };
 		CB8BBF3F23D761C0007F8909 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB8BBF3E23D761C0007F8909 /* GoogleService-Info.plist */; };
+		CB8BBF4223D763C4007F8909 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4123D763C4007F8909 /* AppUser.swift */; };
+		CB8BBF4523D763ED007F8909 /* FirebaseAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4423D763ED007F8909 /* FirebaseAuth.swift */; };
+		CB8BBF4923D7642D007F8909 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4823D7642D007F8909 /* HomePageVC.swift */; };
+		CB8BBF4C23D7644B007F8909 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4B23D7644B007F8909 /* StringEx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +68,10 @@
 		CB8BBF3023D75EA0007F8909 /* ArtSpacePrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtSpacePrototypeUITests.swift; sourceTree = "<group>"; };
 		CB8BBF3223D75EA0007F8909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB8BBF3E23D761C0007F8909 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB8BBF4123D763C4007F8909 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		CB8BBF4423D763ED007F8909 /* FirebaseAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuth.swift; sourceTree = "<group>"; };
+		CB8BBF4823D7642D007F8909 /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
+		CB8BBF4B23D7644B007F8909 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
 		EF149131C6678091CF1F9869 /* Pods-ArtSpacePrototypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpacePrototypeTests.debug.xcconfig"; path = "Target Support Files/Pods-ArtSpacePrototypeTests/Pods-ArtSpacePrototypeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +123,6 @@
 				EF149131C6678091CF1F9869 /* Pods-ArtSpacePrototypeTests.debug.xcconfig */,
 				626C919991105E06A4B12EA0 /* Pods-ArtSpacePrototypeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +151,10 @@
 		CB8BBF0A23D75E9F007F8909 /* ArtSpacePrototype */ = {
 			isa = PBXGroup;
 			children = (
+				CB8BBF4A23D76438007F8909 /* Extensions */,
+				CB8BBF4623D763F4007F8909 /* VCs */,
+				CB8BBF4323D763CD007F8909 /* FirebaseHelpers */,
+				CB8BBF4023D763B0007F8909 /* Models */,
 				CB8BBF3E23D761C0007F8909 /* GoogleService-Info.plist */,
 				CB8BBF0B23D75E9F007F8909 /* AppDelegate.swift */,
 				CB8BBF0D23D75E9F007F8909 /* SceneDelegate.swift */,
@@ -173,6 +184,38 @@
 				CB8BBF3223D75EA0007F8909 /* Info.plist */,
 			);
 			path = ArtSpacePrototypeUITests;
+			sourceTree = "<group>";
+		};
+		CB8BBF4023D763B0007F8909 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB8BBF4123D763C4007F8909 /* AppUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB8BBF4323D763CD007F8909 /* FirebaseHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				CB8BBF4423D763ED007F8909 /* FirebaseAuth.swift */,
+			);
+			path = FirebaseHelpers;
+			sourceTree = "<group>";
+		};
+		CB8BBF4623D763F4007F8909 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				CB8BBF4823D7642D007F8909 /* HomePageVC.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		CB8BBF4A23D76438007F8909 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CB8BBF4B23D7644B007F8909 /* StringEx.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,8 +458,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8BBF4523D763ED007F8909 /* FirebaseAuth.swift in Sources */,
 				CB8BBF1023D75E9F007F8909 /* ViewController.swift in Sources */,
+				CB8BBF4223D763C4007F8909 /* AppUser.swift in Sources */,
 				CB8BBF0C23D75E9F007F8909 /* AppDelegate.swift in Sources */,
+				CB8BBF4923D7642D007F8909 /* HomePageVC.swift in Sources */,
+				CB8BBF4C23D7644B007F8909 /* StringEx.swift in Sources */,
 				CB8BBF0E23D75E9F007F8909 /* SceneDelegate.swift in Sources */,
 				CB8BBF1623D75E9F007F8909 /* ArtSpacePrototype.xcdatamodeld in Sources */,
 			);
