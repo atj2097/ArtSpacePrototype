@@ -75,7 +75,7 @@
 		CB8BBF4823D7642D007F8909 /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
 		CB8BBF4B23D7644B007F8909 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
 		CBDE63DF23DF7CEC00AEC803 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
-		CBDE63E123DF8BC300AEC803 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CBDE63E123DF8BC300AEC803 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "ArtSpacePrototype/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EF149131C6678091CF1F9869 /* Pods-ArtSpacePrototypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpacePrototypeTests.debug.xcconfig"; path = "Target Support Files/Pods-ArtSpacePrototypeTests/Pods-ArtSpacePrototypeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +133,7 @@
 		CB8BBEFF23D75E9F007F8909 = {
 			isa = PBXGroup;
 			children = (
+				CBDE63E123DF8BC300AEC803 /* GoogleService-Info.plist */,
 				CB8BBF0A23D75E9F007F8909 /* ArtSpacePrototype */,
 				CB8BBF2423D75EA0007F8909 /* ArtSpacePrototypeTests */,
 				CB8BBF2F23D75EA0007F8909 /* ArtSpacePrototypeUITests */,
@@ -155,7 +156,6 @@
 		CB8BBF0A23D75E9F007F8909 /* ArtSpacePrototype */ = {
 			isa = PBXGroup;
 			children = (
-				CBDE63E123DF8BC300AEC803 /* GoogleService-Info.plist */,
 				CB8BBF4A23D76438007F8909 /* Extensions */,
 				CB8BBF4623D763F4007F8909 /* VCs */,
 				CB8BBF4323D763CD007F8909 /* FirebaseHelpers */,

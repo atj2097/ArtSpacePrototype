@@ -35,17 +35,7 @@ class ArtDetailVC: UIViewController {
         return label
     }()
     
-//    let Sizelabel = UILabel()
-//        label.text = "Hello World!"
-//        label.textColor = .black
-//
-//        view.addSubview(Sizelabel)
 
-//        label.snp.makeConstraints { (make) in
-//            make.left.equalToSuperview().offset(150)
-//            make.top.equalToSuperview().offset(200)
-//            make.size.equalTo(CGSize(width: 200, height: 20))
-//        }
     
     lazy var ArtistName: UILabel = {
         let label = UILabel()
@@ -57,38 +47,55 @@ class ArtDetailVC: UIViewController {
     
     lazy var PriceName: UILabel = {
         let label = UILabel()
+       
         return label
     }()
     
     
     lazy var PriceButton: UIButton = {
         let button = UIButton()
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(PriceTapped(_:)))
-              view.addGestureRecognizer(tapGesture)
+//        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(PriceTapped())
+//        view.addGestureRecognizer(tapGesture)
+        button.addTarget(self, action: #selector(PriceTapped), for: .touchUpInside)
+
         return button
     }()
     
-       @objc func PriceTapped(_ tapGesture: UITapGestureRecognizer) {
-      let alertAction:UIAlertAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler:nil)
-   
-              }
-  
+    @objc func PriceTapped() {
+        print("Purchased")
+        //      let alertAction:UIAlertAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler:nil)
+        //
+    }
+    
     
     lazy var ARButton: UIButton = {
         let button = UIButton()
         return button
     }()
     
+    
+    override func viewDidLoad() {
+           super.viewDidLoad()
+        view.backgroundColor = .white
+           addSubviews()
+           applyAllConstraints()
+       }
+    
+    
+    
     //MARK: Private functions
     private func addSubviews() {
         view.addSubview(imageCollectionView)
         view.addSubview(SizeName)
+        view.addSubview(PriceButton)
         
     }
     
     
     private func applyAllConstraints() {
         setupConst()
+        constrainImageCollectionView()
+        constrainPriceButton()
     }
     
     
@@ -96,14 +103,36 @@ class ArtDetailVC: UIViewController {
     
     private func setupConst() {
         
-           SizeName.snp.makeConstraints { (make) in
-                 make.left.equalToSuperview().offset(150)
-                 make.top.equalToSuperview().offset(200)
-                 make.size.equalTo(CGSize(width: 200, height: 20))
-             }
-         
+        SizeName.snp.makeConstraints { (make) in
+            make.left.equalToSuperview().offset(150)
+            make.top.equalToSuperview().offset(200)
+            make.size.equalTo(CGSize(width: 200, height: 20))
+        }
+        
     }
-    
-    
+    private func constrainImageCollectionView() {
+        imageCollectionView.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            imageCollectionView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            imageCollectionView.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
+            imageCollectionView.widthAnchor.constraint(equalTo: view.safeAreaLayoutGuide.widthAnchor),
+            imageCollectionView.heightAnchor.constraint(equalToConstant: view.safeAreaLayoutGuide.layoutFrame.height / 3)
+        ])
+    }
 }
 
+private func constrainPriceButton() {
+   
+
+  }
+
+
+
+extension ArtDetailVC: UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: 150, height: 200)
+    }
+    
+}
+ 
