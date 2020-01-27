@@ -9,7 +9,7 @@ target 'ArtSpacePrototype' do
 	pod 'Firebase/Auth'
 	pod 'Firebase/Firestore' 
 	pod 'Firebase/Storage'  
-
+	pod 'SnapKit', '~> 5.0.0' 
   target 'ArtSpacePrototypeTests' do
     inherit! :search_paths
     # Pods for testing
