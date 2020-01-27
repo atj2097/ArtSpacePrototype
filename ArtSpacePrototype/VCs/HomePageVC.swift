@@ -89,6 +89,13 @@ extension HomePageVC: UICollectionViewDataSource, UICollectionViewDelegate, UICo
 
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let detailVC = ArtDetailVC()
+        self.navigationController?.pushViewController(detailVC, animated: true)
+    }
+    
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: 200, height: 200)
     }
