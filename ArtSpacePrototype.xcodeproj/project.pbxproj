@@ -223,8 +223,6 @@
 				6B887FA723DF59650043FAAC /* DetailVC.swift */,
 				CBA0984E23E0A27000D5F7E0 /* PostCreateForm.swift */,
 				CBA0985023E0A44A00D5F7E0 /* Storyboard.storyboard */,
-=======
->>>>>>> 38214a760622213f408f467b5ac11c6c72e8b89b
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -369,8 +367,6 @@
 				CB8BBF1823D75E9F007F8909 /* Assets.xcassets in Resources */,
 				CB8BBF1323D75E9F007F8909 /* Main.storyboard in Resources */,
 				CBA0985123E0A44A00D5F7E0 /* Storyboard.storyboard in Resources */,
-=======
->>>>>>> 38214a760622213f408f467b5ac11c6c72e8b89b
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,9 +504,7 @@
 				6B887FA823DF59650043FAAC /* DetailVC.swift in Sources */,
 				CBA0984F23E0A27000D5F7E0 /* PostCreateForm.swift in Sources */,
 				CB8BBF4C23D7644B007F8909 /* StringEx.swift in Sources */,
-=======
 				FC1616DA23DF894200289C74 /* ArtObject.swift in Sources */,
->>>>>>> 38214a760622213f408f467b5ac11c6c72e8b89b
 				CB8BBF0E23D75E9F007F8909 /* SceneDelegate.swift in Sources */,
 				FC1616D823DF854900289C74 /* FirestoreService.swift in Sources */,
 				CB8BBF1623D75E9F007F8909 /* ArtSpacePrototype.xcdatamodeld in Sources */,
