@@ -10,6 +10,7 @@
 		3227B76FCF04579F9074B1E5 /* Pods_ArtSpacePrototype_ArtSpacePrototypeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03641DCC62CDDA7A0F01EF07 /* Pods_ArtSpacePrototype_ArtSpacePrototypeUITests.framework */; };
 		35CCC019C3B288593294756B /* Pods_ArtSpacePrototypeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B3BCDCF020068E5E11731C /* Pods_ArtSpacePrototypeTests.framework */; };
 		4A3180C7095B6206AE20BCAD /* Pods_ArtSpacePrototype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AF05E5007BE8F15B3F28AB /* Pods_ArtSpacePrototype.framework */; };
+		6B887FA823DF59650043FAAC /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B887FA723DF59650043FAAC /* DetailVC.swift */; };
 		CB8BBF0C23D75E9F007F8909 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF0B23D75E9F007F8909 /* AppDelegate.swift */; };
 		CB8BBF0E23D75E9F007F8909 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF0D23D75E9F007F8909 /* SceneDelegate.swift */; };
 		CB8BBF1023D75E9F007F8909 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF0F23D75E9F007F8909 /* ViewController.swift */; };
@@ -19,14 +20,16 @@
 		CB8BBF1B23D75E9F007F8909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8BBF1923D75E9F007F8909 /* LaunchScreen.storyboard */; };
 		CB8BBF2623D75EA0007F8909 /* ArtSpacePrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF2523D75EA0007F8909 /* ArtSpacePrototypeTests.swift */; };
 		CB8BBF3123D75EA0007F8909 /* ArtSpacePrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF3023D75EA0007F8909 /* ArtSpacePrototypeUITests.swift */; };
-		CB8BBF3F23D761C0007F8909 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB8BBF3E23D761C0007F8909 /* GoogleService-Info.plist */; };
 		CB8BBF4223D763C4007F8909 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4123D763C4007F8909 /* AppUser.swift */; };
 		CB8BBF4523D763ED007F8909 /* FirebaseAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4423D763ED007F8909 /* FirebaseAuth.swift */; };
 		CB8BBF4923D7642D007F8909 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4823D7642D007F8909 /* HomePageVC.swift */; };
 		CB8BBF4C23D7644B007F8909 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4B23D7644B007F8909 /* StringEx.swift */; };
-		FC1616D623DF7F4400289C74 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC1616D523DF7F4400289C74 /* GoogleService-Info.plist */; };
+
+		CBDE63E023DF7CEC00AEC803 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE63DF23DF7CEC00AEC803 /* ArtCell.swift */; };
+		CBDE63E223DF8BC400AEC803 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBDE63E123DF8BC300AEC803 /* GoogleService-Info.plist */; };
 		FC1616D823DF854900289C74 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1616D723DF854900289C74 /* FirestoreService.swift */; };
 		FC1616DA23DF894200289C74 /* ArtObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1616D923DF894200289C74 /* ArtObject.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,7 @@
 		39D06799A7F6C78ED1652D0B /* Pods-ArtSpacePrototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpacePrototype.debug.xcconfig"; path = "Target Support Files/Pods-ArtSpacePrototype/Pods-ArtSpacePrototype.debug.xcconfig"; sourceTree = "<group>"; };
 		580A6DFBFCC953441B8F7E1C /* Pods-ArtSpacePrototype-ArtSpacePrototypeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpacePrototype-ArtSpacePrototypeUITests.release.xcconfig"; path = "Target Support Files/Pods-ArtSpacePrototype-ArtSpacePrototypeUITests/Pods-ArtSpacePrototype-ArtSpacePrototypeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		626C919991105E06A4B12EA0 /* Pods-ArtSpacePrototypeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpacePrototypeTests.release.xcconfig"; path = "Target Support Files/Pods-ArtSpacePrototypeTests/Pods-ArtSpacePrototypeTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B887FA723DF59650043FAAC /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		7C2F1226D4546DCEA852A4BE /* Pods-ArtSpacePrototype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpacePrototype.release.xcconfig"; path = "Target Support Files/Pods-ArtSpacePrototype/Pods-ArtSpacePrototype.release.xcconfig"; sourceTree = "<group>"; };
 		82EE4DBC14C220ED1E62AA46 /* Pods-ArtSpacePrototype-ArtSpacePrototypeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpacePrototype-ArtSpacePrototypeUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArtSpacePrototype-ArtSpacePrototypeUITests/Pods-ArtSpacePrototype-ArtSpacePrototypeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		92AF05E5007BE8F15B3F28AB /* Pods_ArtSpacePrototype.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtSpacePrototype.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,11 +74,12 @@
 		CB8BBF2C23D75EA0007F8909 /* ArtSpacePrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtSpacePrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8BBF3023D75EA0007F8909 /* ArtSpacePrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtSpacePrototypeUITests.swift; sourceTree = "<group>"; };
 		CB8BBF3223D75EA0007F8909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB8BBF3E23D761C0007F8909 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CB8BBF4123D763C4007F8909 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
 		CB8BBF4423D763ED007F8909 /* FirebaseAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuth.swift; sourceTree = "<group>"; };
 		CB8BBF4823D7642D007F8909 /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
 		CB8BBF4B23D7644B007F8909 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
+		CBDE63DF23DF7CEC00AEC803 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
+		CBDE63E123DF8BC300AEC803 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "ArtSpacePrototype/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EF149131C6678091CF1F9869 /* Pods-ArtSpacePrototypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpacePrototypeTests.debug.xcconfig"; path = "Target Support Files/Pods-ArtSpacePrototypeTests/Pods-ArtSpacePrototypeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC1616D523DF7F4400289C74 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FC1616D723DF854900289C74 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
@@ -135,6 +140,7 @@
 		CB8BBEFF23D75E9F007F8909 = {
 			isa = PBXGroup;
 			children = (
+				CBDE63E123DF8BC300AEC803 /* GoogleService-Info.plist */,
 				CB8BBF0A23D75E9F007F8909 /* ArtSpacePrototype */,
 				CB8BBF2423D75EA0007F8909 /* ArtSpacePrototypeTests */,
 				CB8BBF2F23D75EA0007F8909 /* ArtSpacePrototypeUITests */,
@@ -161,7 +167,6 @@
 				CB8BBF4623D763F4007F8909 /* VCs */,
 				CB8BBF4323D763CD007F8909 /* FirebaseHelpers */,
 				CB8BBF4023D763B0007F8909 /* Models */,
-				CB8BBF3E23D761C0007F8909 /* GoogleService-Info.plist */,
 				CB8BBF0B23D75E9F007F8909 /* AppDelegate.swift */,
 				CB8BBF0D23D75E9F007F8909 /* SceneDelegate.swift */,
 				CB8BBF0F23D75E9F007F8909 /* ViewController.swift */,
@@ -214,7 +219,9 @@
 		CB8BBF4623D763F4007F8909 /* VCs */ = {
 			isa = PBXGroup;
 			children = (
+				CBDE63DE23DF7CD800AEC803 /* Cells */,
 				CB8BBF4823D7642D007F8909 /* HomePageVC.swift */,
+				6B887FA723DF59650043FAAC /* DetailVC.swift */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -225,6 +232,14 @@
 				CB8BBF4B23D7644B007F8909 /* StringEx.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CBDE63DE23DF7CD800AEC803 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CBDE63DF23DF7CEC00AEC803 /* ArtCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,8 +352,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB8BBF1B23D75E9F007F8909 /* LaunchScreen.storyboard in Resources */,
-				CB8BBF3F23D761C0007F8909 /* GoogleService-Info.plist in Resources */,
-				FC1616D623DF7F4400289C74 /* GoogleService-Info.plist in Resources */,
+
+				CBDE63E223DF8BC400AEC803 /* GoogleService-Info.plist in Resources */,
 				CB8BBF1823D75E9F007F8909 /* Assets.xcassets in Resources */,
 				CB8BBF1323D75E9F007F8909 /* Main.storyboard in Resources */,
 			);
@@ -470,9 +485,11 @@
 			files = (
 				CB8BBF4523D763ED007F8909 /* FirebaseAuth.swift in Sources */,
 				CB8BBF1023D75E9F007F8909 /* ViewController.swift in Sources */,
+				CBDE63E023DF7CEC00AEC803 /* ArtCell.swift in Sources */,
 				CB8BBF4223D763C4007F8909 /* AppUser.swift in Sources */,
 				CB8BBF0C23D75E9F007F8909 /* AppDelegate.swift in Sources */,
 				CB8BBF4923D7642D007F8909 /* HomePageVC.swift in Sources */,
+				6B887FA823DF59650043FAAC /* DetailVC.swift in Sources */,
 				CB8BBF4C23D7644B007F8909 /* StringEx.swift in Sources */,
 				FC1616DA23DF894200289C74 /* ArtObject.swift in Sources */,
 				CB8BBF0E23D75E9F007F8909 /* SceneDelegate.swift in Sources */,
@@ -653,6 +670,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ArtSpacePrototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -671,6 +689,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ArtSpacePrototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
