@@ -35,8 +35,8 @@ struct ArtObject {
         let artImageURL = dict["artImageURL"] as? String,
         let artID = dict["artID"] as? String,
         let sellerID = dict["sellerID"] as? String,
-        let price = dict["price"] as? Double,
-        let dateCreated = (dict["dateCreated"] as? Timestamp)?.dateValue() else {return nil}
+        let price = dict["price"] as? Double else {return nil}
+        let dateCreated = (dict["dateCreated"] as? Timestamp)?.dateValue()
         
         self.artDescription = artDescription
         self.artImageURL = artImageURL
