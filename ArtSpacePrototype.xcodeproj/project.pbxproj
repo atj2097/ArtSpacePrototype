@@ -21,6 +21,9 @@
 		CB8BBF4223D763C4007F8909 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4123D763C4007F8909 /* AppUser.swift */; };
 		CB8BBF4523D763ED007F8909 /* FirebaseAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4423D763ED007F8909 /* FirebaseAuth.swift */; };
 		CB8BBF4923D7642D007F8909 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4823D7642D007F8909 /* HomePageVC.swift */; };
+		CB8BBF4C23D7644B007F8909 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4B23D7644B007F8909 /* StringEx.swift */; };
+		CBA0984F23E0A27000D5F7E0 /* PostCreateForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA0984E23E0A27000D5F7E0 /* PostCreateForm.swift */; };
+		CBA0985123E0A44A00D5F7E0 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA0985023E0A44A00D5F7E0 /* Storyboard.storyboard */; };
 		CBDE63E023DF7CEC00AEC803 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE63DF23DF7CEC00AEC803 /* ArtCell.swift */; };
 		D832BBEA23E0C83100C5EA42 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D832BBE923E0C83000C5EA42 /* GoogleService-Info.plist */; };
 		D832BBEE23E0CCDC00C5EA42 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D832BBED23E0CCDC00C5EA42 /* String+Validation.swift */; };
@@ -72,6 +75,9 @@
 		CB8BBF4123D763C4007F8909 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
 		CB8BBF4423D763ED007F8909 /* FirebaseAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuth.swift; sourceTree = "<group>"; };
 		CB8BBF4823D7642D007F8909 /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
+		CB8BBF4B23D7644B007F8909 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
+		CBA0984E23E0A27000D5F7E0 /* PostCreateForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCreateForm.swift; sourceTree = "<group>"; };
+		CBA0985023E0A44A00D5F7E0 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		CBDE63DF23DF7CEC00AEC803 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		D832BBE923E0C83000C5EA42 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D832BBED23E0CCDC00C5EA42 /* String+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
@@ -213,6 +219,12 @@
 			children = (
 				D832BBEB23E0C8A600C5EA42 /* Views */,
 				CBDE63DE23DF7CD800AEC803 /* Cells */,
+				CB8BBF4823D7642D007F8909 /* HomePageVC.swift */,
+				6B887FA723DF59650043FAAC /* DetailVC.swift */,
+				CBA0984E23E0A27000D5F7E0 /* PostCreateForm.swift */,
+				CBA0985023E0A44A00D5F7E0 /* Storyboard.storyboard */,
+=======
+>>>>>>> 38214a760622213f408f467b5ac11c6c72e8b89b
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -355,6 +367,10 @@
 				CB8BBF1B23D75E9F007F8909 /* LaunchScreen.storyboard in Resources */,
 				D832BBEA23E0C83100C5EA42 /* GoogleService-Info.plist in Resources */,
 				CB8BBF1823D75E9F007F8909 /* Assets.xcassets in Resources */,
+				CB8BBF1323D75E9F007F8909 /* Main.storyboard in Resources */,
+				CBA0985123E0A44A00D5F7E0 /* Storyboard.storyboard in Resources */,
+=======
+>>>>>>> 38214a760622213f408f467b5ac11c6c72e8b89b
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,7 +506,11 @@
 				CB8BBF0C23D75E9F007F8909 /* AppDelegate.swift in Sources */,
 				CB8BBF4923D7642D007F8909 /* HomePageVC.swift in Sources */,
 				6B887FA823DF59650043FAAC /* DetailVC.swift in Sources */,
+				CBA0984F23E0A27000D5F7E0 /* PostCreateForm.swift in Sources */,
+				CB8BBF4C23D7644B007F8909 /* StringEx.swift in Sources */,
+=======
 				FC1616DA23DF894200289C74 /* ArtObject.swift in Sources */,
+>>>>>>> 38214a760622213f408f467b5ac11c6c72e8b89b
 				CB8BBF0E23D75E9F007F8909 /* SceneDelegate.swift in Sources */,
 				FC1616D823DF854900289C74 /* FirestoreService.swift in Sources */,
 				CB8BBF1623D75E9F007F8909 /* ArtSpacePrototype.xcdatamodeld in Sources */,
