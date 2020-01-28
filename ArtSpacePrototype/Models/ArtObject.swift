@@ -20,7 +20,7 @@ struct ArtObject {
 //    let tags: [String]
     
 //    MARK: - Init
-    
+  
     init(artDescription: String, artImageURL: String, sellerID: String, price: Double, dateCreated: Date? = nil){
         self.artDescription = artDescription
         self.artImageURL = artImageURL
