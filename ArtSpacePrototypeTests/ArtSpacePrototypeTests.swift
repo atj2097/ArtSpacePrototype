@@ -19,16 +19,43 @@ class ArtSpacePrototypeTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testFromDict() {
+        let testDict: [String:Any] = ["artDescription": "HI!", "artImageURL": "URL HERE", "artID": "This is the artID", "sellerID": "sellerID here", "price": 100.0, "soldStatus": false ]
+        
+        let testObject = ArtObject(from: testDict, id: "This is the id")
+        
+        XCTAssert(testObject != nil)
+        
+/**
+         let artDescription: String
+         let artImageURL: String
+         let artID: String
+         let sellerID: String
+         let price: Double
+         let soldStatus: Bool = false
+         let dateCreated: Date?*/
     }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+    
 
 }
+
+/**
+ func testEventFromJSON() {
+     
+     let testBundle = Bundle(for: type(of: self))
+     guard let pathToData = testBundle.path(forResource: "ticketmasterJSON", ofType: "json") else { XCTFail("Couldn't find json file")
+         return}
+
+     let url = URL(fileURLWithPath: pathToData)
+     do {
+         let data = try Data(contentsOf: url)
+         let events = try Event.getEvents(from: data)
+
+         XCTAssert(events != nil, "We couldn't get those events")
+     } catch {
+         XCTFail(error.localizedDescription)
+         print(error)
+     }
+     
+ }
+ */
