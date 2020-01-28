@@ -10,8 +10,8 @@ import Foundation
 import FirebaseFirestore
 
 fileprivate enum FirestoreCollections: String {
-    case users
-    case artObjects
+    case AppUser
+    case ArtObject
     
 }
 // MARK: - Add when we add search bar
@@ -35,7 +35,7 @@ class FirestoreService {
     func createAppUser(user: AppUser, completion: @escaping (Result<(), Error>) -> ()) {
         var fields: [String: Any] = user.fieldsDict
         fields["dateCreated"] = Date()
-        database.collection(FirestoreCollections.users.rawValue).document(user.uid).setData(fields) { (error) in
+        database.collection(FirestoreCollections.AppUser.rawValue).document(user.uid).setData(fields) { (error) in
             if let error = error {
                 completion(.failure(error))
             }
@@ -50,7 +50,7 @@ class FirestoreService {
         if let user = userName {
             updateFields["userName"] = user
         }
-        database.collection(FirestoreCollections.users.rawValue).document(userID).updateData(updateFields) { (error) in
+        database.collection(FirestoreCollections.AppUser.rawValue).document(userID).updateData(updateFields) { (error) in
             if let error = error {
                 completion(.failure(error))
             }
@@ -63,7 +63,7 @@ class FirestoreService {
     func createArtObject(artObject: ArtObject, completion: @ escaping (Result<(), Error>) -> ()) {
         var fields: [String:Any] = artObject.fieldsDict
         fields["dateCreated"] = Date()
-        database.collection(FirestoreCollections.artObjects.rawValue).document(artObject.artID).setData(fields) { (error) in
+        database.collection(FirestoreCollections.ArtObject.rawValue).document(artObject.artID).setData(fields) { (error) in
             if let error = error {
                 completion(.failure(error))
             }
@@ -73,7 +73,7 @@ class FirestoreService {
     }
     
     func getAllArtObjects(completion: @escaping (Result<[ArtObject], Error>) -> ()) {
-        database.collectionGroup(FirestoreCollections.artObjects.rawValue).getDocuments { (snapshot, error) in
+        database.collectionGroup(FirestoreCollections.ArtObject.rawValue).getDocuments { (snapshot, error) in
             if let error = error {
                 completion(.failure(error))
             } else {
@@ -94,7 +94,7 @@ class FirestoreService {
             updateFields["soldStatus"] = status
         }
         
-        let artObject = database.collection(FirestoreCollections.artObjects.rawValue).document(artID)
+        let artObject = database.collection(FirestoreCollections.ArtObject.rawValue).document(artID)
         artObject.updateData(updateFields) { (error) in
             if let error = error {
                 completion(.failure(error))

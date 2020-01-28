@@ -1,10 +1,9 @@
 //
-//  StringEx.swift
+//  Utilites+Extension.swift
 //  ArtSpacePrototype
 //
-//  Created by God on 1/21/20.
+//  Created by Jocelyn Boyd on 1/28/20.
 //  Copyright © 2020 God. All rights reserved.
 //
 
 import Foundation
-import UIKit
