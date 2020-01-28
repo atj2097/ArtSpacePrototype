@@ -24,6 +24,9 @@
 		CB8BBF4523D763ED007F8909 /* FirebaseAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4423D763ED007F8909 /* FirebaseAuth.swift */; };
 		CB8BBF4923D7642D007F8909 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4823D7642D007F8909 /* HomePageVC.swift */; };
 		CB8BBF4C23D7644B007F8909 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4B23D7644B007F8909 /* StringEx.swift */; };
+		FC1616D623DF7F4400289C74 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC1616D523DF7F4400289C74 /* GoogleService-Info.plist */; };
+		FC1616D823DF854900289C74 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1616D723DF854900289C74 /* FirestoreService.swift */; };
+		FC1616DA23DF894200289C74 /* ArtObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1616D923DF894200289C74 /* ArtObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,9 @@
 		CB8BBF4823D7642D007F8909 /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
 		CB8BBF4B23D7644B007F8909 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
 		EF149131C6678091CF1F9869 /* Pods-ArtSpacePrototypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpacePrototypeTests.debug.xcconfig"; path = "Target Support Files/Pods-ArtSpacePrototypeTests/Pods-ArtSpacePrototypeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC1616D523DF7F4400289C74 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FC1616D723DF854900289C74 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		FC1616D923DF894200289C74 /* ArtObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +169,7 @@
 				CB8BBF1723D75E9F007F8909 /* Assets.xcassets */,
 				CB8BBF1923D75E9F007F8909 /* LaunchScreen.storyboard */,
 				CB8BBF1C23D75E9F007F8909 /* Info.plist */,
+				FC1616D523DF7F4400289C74 /* GoogleService-Info.plist */,
 				CB8BBF1423D75E9F007F8909 /* ArtSpacePrototype.xcdatamodeld */,
 			);
 			path = ArtSpacePrototype;
@@ -190,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				CB8BBF4123D763C4007F8909 /* AppUser.swift */,
+				FC1616D923DF894200289C74 /* ArtObject.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -198,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				CB8BBF4423D763ED007F8909 /* FirebaseAuth.swift */,
+				FC1616D723DF854900289C74 /* FirestoreService.swift */,
 			);
 			path = FirebaseHelpers;
 			sourceTree = "<group>";
@@ -329,6 +338,7 @@
 			files = (
 				CB8BBF1B23D75E9F007F8909 /* LaunchScreen.storyboard in Resources */,
 				CB8BBF3F23D761C0007F8909 /* GoogleService-Info.plist in Resources */,
+				FC1616D623DF7F4400289C74 /* GoogleService-Info.plist in Resources */,
 				CB8BBF1823D75E9F007F8909 /* Assets.xcassets in Resources */,
 				CB8BBF1323D75E9F007F8909 /* Main.storyboard in Resources */,
 			);
@@ -464,7 +474,9 @@
 				CB8BBF0C23D75E9F007F8909 /* AppDelegate.swift in Sources */,
 				CB8BBF4923D7642D007F8909 /* HomePageVC.swift in Sources */,
 				CB8BBF4C23D7644B007F8909 /* StringEx.swift in Sources */,
+				FC1616DA23DF894200289C74 /* ArtObject.swift in Sources */,
 				CB8BBF0E23D75E9F007F8909 /* SceneDelegate.swift in Sources */,
+				FC1616D823DF854900289C74 /* FirestoreService.swift in Sources */,
 				CB8BBF1623D75E9F007F8909 /* ArtSpacePrototype.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
