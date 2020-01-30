@@ -10,7 +10,6 @@
 		3227B76FCF04579F9074B1E5 /* Pods_ArtSpacePrototype_ArtSpacePrototypeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03641DCC62CDDA7A0F01EF07 /* Pods_ArtSpacePrototype_ArtSpacePrototypeUITests.framework */; };
 		35CCC019C3B288593294756B /* Pods_ArtSpacePrototypeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B3BCDCF020068E5E11731C /* Pods_ArtSpacePrototypeTests.framework */; };
 		4A3180C7095B6206AE20BCAD /* Pods_ArtSpacePrototype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AF05E5007BE8F15B3F28AB /* Pods_ArtSpacePrototype.framework */; };
-		6B887FA823DF59650043FAAC /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B887FA723DF59650043FAAC /* DetailVC.swift */; };
 		CB8BBF0C23D75E9F007F8909 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF0B23D75E9F007F8909 /* AppDelegate.swift */; };
 		CB8BBF0E23D75E9F007F8909 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF0D23D75E9F007F8909 /* SceneDelegate.swift */; };
 		CB8BBF1623D75E9F007F8909 /* ArtSpacePrototype.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF1423D75E9F007F8909 /* ArtSpacePrototype.xcdatamodeld */; };
@@ -21,13 +20,11 @@
 		CB8BBF4223D763C4007F8909 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4123D763C4007F8909 /* AppUser.swift */; };
 		CB8BBF4523D763ED007F8909 /* FirebaseAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4423D763ED007F8909 /* FirebaseAuth.swift */; };
 		CB8BBF4923D7642D007F8909 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4823D7642D007F8909 /* HomePageVC.swift */; };
-		CB8BBF4C23D7644B007F8909 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BBF4B23D7644B007F8909 /* StringEx.swift */; };
 		CBA0984F23E0A27000D5F7E0 /* PostCreateForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA0984E23E0A27000D5F7E0 /* PostCreateForm.swift */; };
-		CBA0985123E0A44A00D5F7E0 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA0985023E0A44A00D5F7E0 /* Storyboard.storyboard */; };
 		CBDE63E023DF7CEC00AEC803 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDE63DF23DF7CEC00AEC803 /* ArtCell.swift */; };
+		D82FA83A23E32733005B22D4 /* DetailPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82FA83923E32733005B22D4 /* DetailPageVC.swift */; };
 		D832BBEA23E0C83100C5EA42 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D832BBE923E0C83000C5EA42 /* GoogleService-Info.plist */; };
 		D832BBEE23E0CCDC00C5EA42 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D832BBED23E0CCDC00C5EA42 /* String+Validation.swift */; };
-		D849960423E0D9BE00CE5296 /* Utilites+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D849960323E0D9BE00CE5296 /* Utilites+Extension.swift */; };
 		FC1616D823DF854900289C74 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1616D723DF854900289C74 /* FirestoreService.swift */; };
 		FC1616DA23DF894200289C74 /* ArtObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1616D923DF894200289C74 /* ArtObject.swift */; };
 /* End PBXBuildFile section */
@@ -55,7 +52,6 @@
 		39D06799A7F6C78ED1652D0B /* Pods-ArtSpacePrototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpacePrototype.debug.xcconfig"; path = "Target Support Files/Pods-ArtSpacePrototype/Pods-ArtSpacePrototype.debug.xcconfig"; sourceTree = "<group>"; };
 		580A6DFBFCC953441B8F7E1C /* Pods-ArtSpacePrototype-ArtSpacePrototypeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpacePrototype-ArtSpacePrototypeUITests.release.xcconfig"; path = "Target Support Files/Pods-ArtSpacePrototype-ArtSpacePrototypeUITests/Pods-ArtSpacePrototype-ArtSpacePrototypeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		626C919991105E06A4B12EA0 /* Pods-ArtSpacePrototypeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpacePrototypeTests.release.xcconfig"; path = "Target Support Files/Pods-ArtSpacePrototypeTests/Pods-ArtSpacePrototypeTests.release.xcconfig"; sourceTree = "<group>"; };
-		6B887FA723DF59650043FAAC /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		7C2F1226D4546DCEA852A4BE /* Pods-ArtSpacePrototype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpacePrototype.release.xcconfig"; path = "Target Support Files/Pods-ArtSpacePrototype/Pods-ArtSpacePrototype.release.xcconfig"; sourceTree = "<group>"; };
 		82EE4DBC14C220ED1E62AA46 /* Pods-ArtSpacePrototype-ArtSpacePrototypeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpacePrototype-ArtSpacePrototypeUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArtSpacePrototype-ArtSpacePrototypeUITests/Pods-ArtSpacePrototype-ArtSpacePrototypeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		92AF05E5007BE8F15B3F28AB /* Pods_ArtSpacePrototype.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtSpacePrototype.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,13 +71,11 @@
 		CB8BBF4123D763C4007F8909 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
 		CB8BBF4423D763ED007F8909 /* FirebaseAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuth.swift; sourceTree = "<group>"; };
 		CB8BBF4823D7642D007F8909 /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
-		CB8BBF4B23D7644B007F8909 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
 		CBA0984E23E0A27000D5F7E0 /* PostCreateForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCreateForm.swift; sourceTree = "<group>"; };
-		CBA0985023E0A44A00D5F7E0 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		CBDE63DF23DF7CEC00AEC803 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
+		D82FA83923E32733005B22D4 /* DetailPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageVC.swift; sourceTree = "<group>"; };
 		D832BBE923E0C83000C5EA42 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D832BBED23E0CCDC00C5EA42 /* String+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
-		D849960323E0D9BE00CE5296 /* Utilites+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilites+Extension.swift"; sourceTree = "<group>"; };
 		EF149131C6678091CF1F9869 /* Pods-ArtSpacePrototypeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtSpacePrototypeTests.debug.xcconfig"; path = "Target Support Files/Pods-ArtSpacePrototypeTests/Pods-ArtSpacePrototypeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC1616D723DF854900289C74 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
 		FC1616D923DF894200289C74 /* ArtObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObject.swift; sourceTree = "<group>"; };
@@ -147,6 +141,7 @@
 				CB8BBF0923D75E9F007F8909 /* Products */,
 				3BCD8CBE8544AB5F6BC1D781 /* Pods */,
 				3066763866428518F17A3522 /* Frameworks */,
+				D82FA83823E326F8005B22D4 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,9 +215,8 @@
 				D832BBEB23E0C8A600C5EA42 /* Views */,
 				CBDE63DE23DF7CD800AEC803 /* Cells */,
 				CB8BBF4823D7642D007F8909 /* HomePageVC.swift */,
-				6B887FA723DF59650043FAAC /* DetailVC.swift */,
+				D82FA83923E32733005B22D4 /* DetailPageVC.swift */,
 				CBA0984E23E0A27000D5F7E0 /* PostCreateForm.swift */,
-				CBA0985023E0A44A00D5F7E0 /* Storyboard.storyboard */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -231,7 +225,6 @@
 			isa = PBXGroup;
 			children = (
 				D832BBED23E0CCDC00C5EA42 /* String+Validation.swift */,
-				D849960323E0D9BE00CE5296 /* Utilites+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -244,11 +237,12 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		D832BBEB23E0C8A600C5EA42 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CB8BBF4823D7642D007F8909 /* HomePageVC.swift */,
-				6B887FA723DF59650043FAAC /* DetailVC.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -365,8 +359,6 @@
 				CB8BBF1B23D75E9F007F8909 /* LaunchScreen.storyboard in Resources */,
 				D832BBEA23E0C83100C5EA42 /* GoogleService-Info.plist in Resources */,
 				CB8BBF1823D75E9F007F8909 /* Assets.xcassets in Resources */,
-				CB8BBF1323D75E9F007F8909 /* Main.storyboard in Resources */,
-				CBA0985123E0A44A00D5F7E0 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,15 +487,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB8BBF4523D763ED007F8909 /* FirebaseAuth.swift in Sources */,
+				D82FA83A23E32733005B22D4 /* DetailPageVC.swift in Sources */,
 				CBDE63E023DF7CEC00AEC803 /* ArtCell.swift in Sources */,
-				D849960423E0D9BE00CE5296 /* Utilites+Extension.swift in Sources */,
 				CB8BBF4223D763C4007F8909 /* AppUser.swift in Sources */,
 				D832BBEE23E0CCDC00C5EA42 /* String+Validation.swift in Sources */,
 				CB8BBF0C23D75E9F007F8909 /* AppDelegate.swift in Sources */,
 				CB8BBF4923D7642D007F8909 /* HomePageVC.swift in Sources */,
-				6B887FA823DF59650043FAAC /* DetailVC.swift in Sources */,
 				CBA0984F23E0A27000D5F7E0 /* PostCreateForm.swift in Sources */,
-				CB8BBF4C23D7644B007F8909 /* StringEx.swift in Sources */,
 				FC1616DA23DF894200289C74 /* ArtObject.swift in Sources */,
 				CB8BBF0E23D75E9F007F8909 /* SceneDelegate.swift in Sources */,
 				FC1616D823DF854900289C74 /* FirestoreService.swift in Sources */,
